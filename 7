@@ -1,0 +1,23 @@
+#!/bin/bash
+# input : 2 strings with substrings separated by `,`
+# output: number as a string
+accum () {
+  s1=$1
+  s2=$2
+  xs=(${s1//,/ })
+  ys=(${s2//,/ })
+  m=-1
+  for x in "${xs[@]}"
+  do
+    a=${#x}
+    for y in "${ys[@]}"
+    do
+      b=${#y} 
+      c=$(( a - b ))
+      c=$(( c < 0 ? -c : c ))
+      m=$(( c > m ? c : m ))
+    done
+  done
+  echo $m
+}
+accum "$1" "$2"
