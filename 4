@@ -1,0 +1,7 @@
+#!/bin/bash
+evap_per_day=$2
+threshold=$3
+awk "BEGIN { 
+  r = log($threshold / 100) / log((100 - $evap_per_day) / 100);
+  print int(r) == r ? r : int(r) + 1;
+}"
