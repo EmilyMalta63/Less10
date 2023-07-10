@@ -1,0 +1,5 @@
+#!/bin/bash
+potatoes() {
+  bc <<<  "$2*(100-$1)/(100-$3)"
+}
+potatoes $1 $2 $3
