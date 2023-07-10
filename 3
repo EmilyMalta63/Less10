@@ -1,0 +1,14 @@
+#!/bin/bash
+max_rot () {
+    # your code
+    rot () {
+      num="$1"
+      len="${#num}"
+      for i in $(seq 0 $len)
+      do
+        echo "$num"
+        num="${num:0:i}${num:i+1}${num:i:1}"
+      done
+    }
+    
+    rot $1 | sort -r | head -1
