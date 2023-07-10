@@ -1,0 +1,6 @@
+for (( i=$2; i>0; i-- )); do
+  if [ $((i%$1)) -eq 0 ]; then
+    echo "$i"
+    break
+  fi
+done
