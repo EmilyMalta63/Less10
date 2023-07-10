@@ -1,1 +1,11 @@
 # Less10
+1.	  https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/shell
+2.	https://www.codewars.com/kata/55fd2d567d94ac3bc9000064/train/shell
+3.	https://www.codewars.com/kata/56a4872cbb65f3a610000026/train/shell 
+4.	https://www.codewars.com/kata/5506b230a11c0aeab3000c1f/train/shell
+5.	https://www.codewars.com/kata/5aba780a6a176b029800041c/train/shell
+6.	https://www.codewars.com/kata/5f0ed36164f2bc00283aed07/train/shell
+7.	https://www.codewars.com/kata/5663f5305102699bad000056/train/shell
+8.	https://www.codewars.com/kata/567501aec64b81e252000003/train/shell
+9.	https://www.codewars.com/kata/58ce8725c835848ad6000007/train/shell
+10.	https://www.codewars.com/kata/56484848ba95170a8000004d/train/shell
