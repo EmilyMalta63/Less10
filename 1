@@ -1,0 +1,7 @@
+#!/bin/bash
+longest () {
+   string="$1$2"
+   data=`echo "$string"|grep -o "[a-z]"|sort|uniq|tr -d '\n'`
+   echo "$data"
+}
+longest "$1" "$2"
